@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:id ="@+id/Music"
+    android:icon="@drawable/ic_icon"
+    android:title="Music"
+    app:showAsAction="ifRoom"/>
+
+<item android:id ="@+id/Desktop_Site"
+    android:title ="Desktop Site"
+    app:showAsAction="never"/>
+
+    <item android:id ="@+id/Translate"
+        android:title ="Translate"
+        app:showAsAction="never"/>
+
+
+    <item android:id ="@+id/Add_To_HomeScreen"
+        android:title ="Add to Home Screen"
+        app:showAsAction="never"/>
+
+    <item android:id ="@+id/Open_In_Chrome"
+        android:title ="Open in Chrome"
+        app:showAsAction="never">
+
+
+
+    </item>
+</menu>
